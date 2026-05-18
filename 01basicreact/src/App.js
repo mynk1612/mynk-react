@@ -1,8 +1,10 @@
+import Mynk from "./Mynk";
+
 function App() {
   return (
-    <div>
-      <h1>lens with mayank </h1>
-    </div>
+    <>
+    <Mynk />
+    </>
   );
 }
 
