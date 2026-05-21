@@ -1,0 +1,35 @@
+import React from 'react'
+
+function Card(props) {
+    console.log("props", props);
+  return (
+    <>
+      <div className="relative h-[400px] w-[300px] rounded-md">
+        <img 
+        src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixli=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFuU2h8MTB8fHVzZXJ8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"alt="AirMAX PRO" class="z-0 h-full w-full rounded-md object-cover"/>
+        {/* <img class="absolute inset-0 h-full w-full object-cover rounded-md" src="https://images.pexels.com/photos/37609358/pexels-photo-37609358.jpeg" alt="" /> */}
+       </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+         <div className="absolute bottom-4 left-4 text-left">
+        <h1 className="text-4xl font-bold text-white">Tailwind CSS</h1>
+        <p className="mt-2 text-sm text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+        <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+        </button>
+      </div>
+      </>
+)
+}
+
+export default Card
+      {/* <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+        <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="https://images.pexels.com/photos/37609358/pexels-photo-37609358.jpeg" alt="" width="384" height="512" />
+        <blockquote>
+          <p className="text-lg font-medium bg-gray-200 p-4 rounded-xl">Tailwind CSS works by scanning all of your HTML files...</p>
+        </blockquote>
+      </figure> 
+      */}
+
+      
+    
+  
