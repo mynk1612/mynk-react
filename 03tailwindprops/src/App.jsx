@@ -16,8 +16,10 @@ function App() {
   return (
     <>
       <h2 className='bg-green-800 text-black p-4 rounded-xl mb-4'>Tailwind test</h2>
-      <Card channel="Nature lens by mayank" someObject={myObj}/>
-      <Card channel="Nature lens by mayank" someObject={newArr}/>
+      <Card username="nature lens with mayank" btnText="Click Me"/>
+      <Card username="sniper" btnText="Visit Me"/>
+      {/* <Card channel="mayank" someObject={myObj}/> 
+      <Card channel="sniper" someObject={newArr}/>*/}
     </>
   )
 }
